@@ -1,0 +1,25 @@
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header Styling */
+.tableTitleWrap {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.tableTitle {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Adjust the second column's width */
+tbody td:nth-child(1) {
+  width: 30%; /* 30% width for Name */
+}
+
+tbody td:nth-child(2) {
+  width: 70%; /* 70% width for Type */
+}
